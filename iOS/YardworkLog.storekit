@@ -1,0 +1,42 @@
+{
+  "identifier" : "yardworklog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "yardworklog_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "yardworklog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Recurring task scheduling and full history",
+              "displayName" : "Yardwork Log Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.yardworklog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Yardwork Log Pro Monthly",
+          "subscriptionGroupID" : "yardworklog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
